@@ -27,7 +27,7 @@ void display(string name[], float price[5][3])
 	cout << left << fixed << setw(15) << i+1 << setw(20) << name[i] << setw(20)<< setprecision(2) << price[i][0] << setw(20) << setprecision(2) << price[0][i] << setw(20) << setprecision(2) << price[0][i] << endl; 
 	}
 }
-void calprice(float price[3][5])
+void calprice(float price[5][3])
 {
 	for (int i = 0; i < 5; i++) {
 		price[i][1] = (price[i][0] * 7/100);
